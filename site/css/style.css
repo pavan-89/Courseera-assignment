@@ -1,0 +1,76 @@
+* {
+	box-sizing:  border-box;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #d6d6c2;
+}
+h1{
+	text-align: center;
+	background-color: #d2691e;
+	border: 1px solid black;
+	color: white;
+	padding: 10px;
+}
+.Container {
+	position: relative;
+	width: 33%;	
+	float: left;
+	padding: 10px;
+	border: 2px solid;
+	margin: 10px;
+	background-color: #e0ffff;
+}
+p{
+	background-color: #e0ffff;
+	clear: right;
+}
+section{
+
+}
+
+.menu1, .menu2, .menu3{
+	font-weight: bold;
+	margin-bottom: -10px;
+	font-size: 1.3em;
+	padding: 5px;
+	width: 120px;
+	text-align: center;
+	position: relative;
+	top: -32px;
+	border: 1px solid;
+	background-color: #800080;
+	float: right;
+	margin-right: -11px;
+}
+.menu2{	
+	background-color: green	;
+}
+.menu3{
+	background-color: red;	
+}
+@media only screen and (min-width: 992px){
+	.Container{
+		width: 30%;
+	}
+	.Container1{
+		margin-left: 20px;
+	}
+	.Container2{
+		margin-left: 20px;
+	}
+	.Container3{
+		margin-left: 20px;
+	}
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.Container{
+		width: 47%;
+	}
+	.Container3{
+		width: 97%
+	}
+}
+@media only screen and (max-width: 767px){
+	.Container{
+		width: 95%;
+	}
+}
